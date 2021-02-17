@@ -1,0 +1,3821 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyNewSystem
+</name>
+</assembly>
+<members>
+<member name="T:MyNewSystem.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:MyNewSystem.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:MyNewSystem.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:MyNewSystem.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:MyNewSystem.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:MyNewSystem.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelProductId">
+<summary>
+LabelProductId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._TextBoxProductId">
+<summary>
+TextBoxProductId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelCategory">
+<summary>
+LabelCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._DropDownListCategoryId">
+<summary>
+DropDownListCategoryId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._rfvproductcategory">
+<summary>
+rfvproductcategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelProductName">
+<summary>
+LabelProductName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._TextBoxProductName">
+<summary>
+TextBoxProductName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._rfvproductname">
+<summary>
+rfvproductname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelProductDescription">
+<summary>
+LabelProductDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._TextBoxProductDescription">
+<summary>
+TextBoxProductDescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._rfvproductdescription">
+<summary>
+rfvproductdescription control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelProductPrice">
+<summary>
+LabelProductPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._TextBoxProductPrice">
+<summary>
+TextBoxProductPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._rfvproductprice">
+<summary>
+rfvproductprice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelProductQuantity">
+<summary>
+LabelProductQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._TextBoxProductQuantity">
+<summary>
+TextBoxProductQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._rfvproductquantity">
+<summary>
+rfvproductquantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelProductImage">
+<summary>
+LabelProductImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._FileUploadProductImage">
+<summary>
+FileUploadProductImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._ImageProduct">
+<summary>
+ImageProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._rfvproductimage">
+<summary>
+rfvproductimage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._ButtonAdd">
+<summary>
+ButtonAdd control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AddProduct._LabelStatusImage">
+<summary>
+LabelStatusImage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Admin._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Admin._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Admin._LinkButtonLogout">
+<summary>
+LinkButtonLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Admin._LabelSession">
+<summary>
+LabelSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Admin._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._GridviewFeedback">
+<summary>
+GridviewFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._SqlDataSourceFeedback">
+<summary>
+SqlDataSourceFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._LabelTotalCustomers">
+<summary>
+LabelTotalCustomers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._TextBoxSubject">
+<summary>
+TextBoxSubject control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._TextBoxMessage">
+<summary>
+TextBoxMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._ButtonSubmit">
+<summary>
+ButtonSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminFeedback._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._LabelEmail">
+<summary>
+LabelEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._rfvemail">
+<summary>
+rfvemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._LabelPassword">
+<summary>
+LabelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._TextBoxPassword">
+<summary>
+TextBoxPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._rfvpassword">
+<summary>
+rfvpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._ButtonLogin">
+<summary>
+ButtonLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._LabelPasswordStatus">
+<summary>
+LabelPasswordStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminLogin._LabelCheckEmail">
+<summary>
+LabelCheckEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._TextBoxSearch">
+<summary>
+TextBoxSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._ButtonSearch">
+<summary>
+ButtonSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._SqlDataSourceSearch">
+<summary>
+SqlDataSourceSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._GridViewAllProduct">
+<summary>
+GridViewAllProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._SqlDataSourceAllProductGridview">
+<summary>
+SqlDataSourceAllProductGridview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._GridViewFilterProduct">
+<summary>
+GridViewFilterProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminProduct._SqlDataSourceFilterProductGridview">
+<summary>
+SqlDataSourceFilterProductGridview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelEmail">
+<summary>
+LabelEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._rfvemail">
+<summary>
+rfvemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelUsername">
+<summary>
+LabelUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._TextBoxUsername">
+<summary>
+TextBoxUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._rfvusername">
+<summary>
+rfvusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelPassword">
+<summary>
+LabelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._TextBoxPassword">
+<summary>
+TextBoxPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._rfvpassword">
+<summary>
+rfvpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelConfirmPassword">
+<summary>
+LabelConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._TextBoxConfirmPassword">
+<summary>
+TextBoxConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._rfvconfirmpassword">
+<summary>
+rfvconfirmpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._cvcomparepassword">
+<summary>
+cvcomparepassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._ButtonRegister">
+<summary>
+ButtonRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelCheckEmail">
+<summary>
+LabelCheckEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelCheckUsername">
+<summary>
+LabelCheckUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.AdminRegister._LabelAdminId">
+<summary>
+LabelAdminId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._GridViewCheckout">
+<summary>
+GridViewCheckout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelOrderDetails">
+<summary>
+LabelOrderDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._TextBoxOrderId">
+<summary>
+TextBoxOrderId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._TextBoxDateOfOrder">
+<summary>
+TextBoxDateOfOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._TextBoxUsername">
+<summary>
+TextBoxUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._TextBoxPhoneNumber">
+<summary>
+TextBoxPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._TextBoxAddress">
+<summary>
+TextBoxAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelEwalletAccountId">
+<summary>
+LabelEwalletAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelEWalletBalance">
+<summary>
+LabelEWalletBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelTitleSelectPayment">
+<summary>
+LabelTitleSelectPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._RadioButtonListPayment">
+<summary>
+RadioButtonListPayment control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._ButtonCash">
+<summary>
+ButtonCash control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._ButtonEwallet">
+<summary>
+ButtonEwallet control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._ButtonCancelShopping">
+<summary>
+ButtonCancelShopping control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelCustomerId">
+<summary>
+LabelCustomerId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelTransactionId">
+<summary>
+LabelTransactionId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelEwalletBalanceStatus">
+<summary>
+LabelEwalletBalanceStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelProductIdInGridview">
+<summary>
+LabelProductIdInGridview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelProductQuantityInGridview">
+<summary>
+LabelProductQuantityInGridview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Checkout._LabelGetEmailValueFromSession">
+<summary>
+LabelGetEmailValueFromSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Customer._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Customer._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Customer._LinkButtonLogout">
+<summary>
+LinkButtonLogout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Customer._LabelSession">
+<summary>
+LabelSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Customer._LabelEwalletBalance">
+<summary>
+LabelEwalletBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Customer._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LabelShoppingCartQuantity">
+<summary>
+LabelShoppingCartQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._HyperlinkShoppingCart">
+<summary>
+HyperlinkShoppingCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LabelCategoryTitle">
+<summary>
+LabelCategoryTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LinkButtonAllCategory">
+<summary>
+LinkButtonAllCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LinkButtonHoodie">
+<summary>
+LinkButtonHoodie control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LinkButtonJeans">
+<summary>
+LinkButtonJeans control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LinkButtonSneakers">
+<summary>
+LinkButtonSneakers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LabelSortPrice">
+<summary>
+LabelSortPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._DropDownListSortPrice">
+<summary>
+DropDownListSortPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._ButtonSort">
+<summary>
+ButtonSort control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._DataListProduct">
+<summary>
+DataListProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._LabelEmptyDatalistMessage">
+<summary>
+LabelEmptyDatalistMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._SqlDataSourceProduct">
+<summary>
+SqlDataSourceProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._SqlDataSourceProductCategory">
+<summary>
+SqlDataSourceProductCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._SqlDataSourceSortPriceAscending">
+<summary>
+SqlDataSourceSortPriceAscending control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.CustomerProduct._SqlDataSourceSortPriceDescending">
+<summary>
+SqlDataSourceSortPriceDescending control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.DeleteProduct._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.DeleteProduct._DropDownListProductCategory">
+<summary>
+DropDownListProductCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.DeleteProduct._SqlDataSourceDDL">
+<summary>
+SqlDataSourceDDL control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.DeleteProduct._GridViewDeleteProduct">
+<summary>
+GridViewDeleteProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.DeleteProduct._SqlDataSourceGridview">
+<summary>
+SqlDataSourceGridview control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelAccountId">
+<summary>
+LabelAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._TextBoxAccountId">
+<summary>
+TextBoxAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelDate">
+<summary>
+LabelDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._TextBoxDate">
+<summary>
+TextBoxDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelBalance">
+<summary>
+LabelBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._TextBoxBalance">
+<summary>
+TextBoxBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelDeposit">
+<summary>
+LabelDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._TextBoxDeposit">
+<summary>
+TextBoxDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._rfvdeposit">
+<summary>
+rfvdeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._ButtonDeposit">
+<summary>
+ButtonDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._HyperLinkDeposit">
+<summary>
+HyperLinkDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._HyperLinkWithdraw">
+<summary>
+HyperLinkWithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._HyperLinkTransfer">
+<summary>
+HyperLinkTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._HyperLinkTransactionHistory">
+<summary>
+HyperLinkTransactionHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelTransactionId">
+<summary>
+LabelTransactionId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Deposit._LabelGetEmailValueFromSession">
+<summary>
+LabelGetEmailValueFromSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._LabelAccountId">
+<summary>
+LabelAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._TextBoxAccountId">
+<summary>
+TextBoxAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._LabelBalance">
+<summary>
+LabelBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._TextBoxBalance">
+<summary>
+TextBoxBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._HyperLinkDeposit">
+<summary>
+HyperLinkDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._HyperLinkWithdraw">
+<summary>
+HyperLinkWithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._HyperLinkTransfer">
+<summary>
+HyperLinkTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Ewallet._HyperLinkTransactionHistory">
+<summary>
+HyperLinkTransactionHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._LabelName">
+<summary>
+LabelName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._TextBoxName">
+<summary>
+TextBoxName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._LabelEmail">
+<summary>
+LabelEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._LabelPhoneNumber">
+<summary>
+LabelPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._TextBoxPhoneNumber">
+<summary>
+TextBoxPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._LabelMessage">
+<summary>
+LabelMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._TextBoxMessage">
+<summary>
+TextBoxMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._ButtonSubmit">
+<summary>
+ButtonSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Feedback._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ForgotPassword._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ForgotPassword._LabelEmail">
+<summary>
+LabelEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ForgotPassword._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ForgotPassword._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ForgotPassword._ButtonSubmit">
+<summary>
+ButtonSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ForgotPassword._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ForgotPassword._rfvemail">
+<summary>
+rfvemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Guest._head">
+<summary>
+head control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Guest._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Guest._LabelSession">
+<summary>
+LabelSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Guest._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._LabelEmail">
+<summary>
+LabelEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._rfvemail">
+<summary>
+rfvemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._LabelPassword">
+<summary>
+LabelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._TextBoxPassword">
+<summary>
+TextBoxPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._rfvpassword">
+<summary>
+rfvpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._ButtonLogin">
+<summary>
+ButtonLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._HyperLinkForgotPass">
+<summary>
+HyperLinkForgotPass control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._LabelPasswordStatus">
+<summary>
+LabelPasswordStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Login._LabelCheckEmail">
+<summary>
+LabelCheckEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._LabelOrderDate">
+<summary>
+LabelOrderDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._TextBoxDate">
+<summary>
+TextBoxDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._CalendarExtenderDate">
+<summary>
+CalendarExtenderDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._ButtonReset">
+<summary>
+ButtonReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._ButtonSearch">
+<summary>
+ButtonSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._GridViewAllOrderHistory">
+<summary>
+GridViewAllOrderHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._GridViewFilterOrderHistory">
+<summary>
+GridViewFilterOrderHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._rfvdate">
+<summary>
+rfvdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._CustomValidatorDateFormat">
+<summary>
+CustomValidatorDateFormat control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._SqlDataSourceAllOrderHistory">
+<summary>
+SqlDataSourceAllOrderHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._SqlDataSourceFilterOrderHistory">
+<summary>
+SqlDataSourceFilterOrderHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistory._ScriptManagerCalendarExtender">
+<summary>
+ScriptManagerCalendarExtender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._GridViewOrderDetails">
+<summary>
+GridViewOrderDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._SqlDataSourceOrderDetails">
+<summary>
+SqlDataSourceOrderDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._PanelReceipt">
+<summary>
+PanelReceipt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelOrderId">
+<summary>
+LabelOrderId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelOrderDate">
+<summary>
+LabelOrderDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelCustomerName">
+<summary>
+LabelCustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelCustomerEmail">
+<summary>
+LabelCustomerEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelCustomerPhoneNumber">
+<summary>
+LabelCustomerPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelCustomerAddress">
+<summary>
+LabelCustomerAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelPaymentType">
+<summary>
+LabelPaymentType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._GridViewProductReceipt">
+<summary>
+GridViewProductReceipt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._LabelTotal">
+<summary>
+LabelTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.OrderHistoryDetails._ButtonDownload">
+<summary>
+ButtonDownload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._PanelReceipt">
+<summary>
+PanelReceipt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelOrderId">
+<summary>
+LabelOrderId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelOrderDate">
+<summary>
+LabelOrderDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelCustomerName">
+<summary>
+LabelCustomerName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelCustomerEmail">
+<summary>
+LabelCustomerEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelCustomerPhoneNumber">
+<summary>
+LabelCustomerPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelCustomerAddress">
+<summary>
+LabelCustomerAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelPaymentType">
+<summary>
+LabelPaymentType control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._GridViewProductReceipt">
+<summary>
+GridViewProductReceipt control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._LabelTotal">
+<summary>
+LabelTotal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Receipt._ButtonDownload">
+<summary>
+ButtonDownload control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelFirstName">
+<summary>
+LabelFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxFirstName">
+<summary>
+TextBoxFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvfname">
+<summary>
+rfvfname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelLastName">
+<summary>
+LabelLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxLastName">
+<summary>
+TextBoxLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvlname">
+<summary>
+rfvlname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelGender">
+<summary>
+LabelGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._DropDownListGender">
+<summary>
+DropDownListGender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvgender">
+<summary>
+rfvgender control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelUsername">
+<summary>
+LabelUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxUsername">
+<summary>
+TextBoxUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvusername">
+<summary>
+rfvusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelEmail">
+<summary>
+LabelEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvemail">
+<summary>
+rfvemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelPhone">
+<summary>
+LabelPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxPhone">
+<summary>
+TextBoxPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvphone">
+<summary>
+rfvphone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelAddressLine1">
+<summary>
+LabelAddressLine1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxAddressLine1">
+<summary>
+TextBoxAddressLine1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvaddressline1">
+<summary>
+rfvaddressline1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelAddressLine2">
+<summary>
+LabelAddressLine2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxAddressLine2">
+<summary>
+TextBoxAddressLine2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvaddressline2">
+<summary>
+rfvaddressline2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelPostalCode">
+<summary>
+LabelPostalCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxPostalCode">
+<summary>
+TextBoxPostalCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvpostalcode">
+<summary>
+rfvpostalcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelCity">
+<summary>
+LabelCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxCity">
+<summary>
+TextBoxCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvcity">
+<summary>
+rfvcity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelState">
+<summary>
+LabelState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._DropDownListState">
+<summary>
+DropDownListState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvstate">
+<summary>
+rfvstate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelCountry">
+<summary>
+LabelCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._DropDownListCountry">
+<summary>
+DropDownListCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvcountry">
+<summary>
+rfvcountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelPassword">
+<summary>
+LabelPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxPassword">
+<summary>
+TextBoxPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvpassword">
+<summary>
+rfvpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelConfirmPassword">
+<summary>
+LabelConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxConfirmPassword">
+<summary>
+TextBoxConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._rfvconfirmpassword">
+<summary>
+rfvconfirmpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._cvconfirmpassword">
+<summary>
+cvconfirmpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._ButtonRegister">
+<summary>
+ButtonRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._PanelCaptcha">
+<summary>
+PanelCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._CaptchaRegister">
+<summary>
+CaptchaRegister control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._TextBoxCaptcha">
+<summary>
+TextBoxCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelCaptcha">
+<summary>
+LabelCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._ButtonCaptcha">
+<summary>
+ButtonCaptcha control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelCheckEmail">
+<summary>
+LabelCheckEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelCheckUsername">
+<summary>
+LabelCheckUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelInformation">
+<summary>
+LabelInformation control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelEwalletAccountId">
+<summary>
+LabelEwalletAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Register._LabelCustomerId">
+<summary>
+LabelCustomerId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._LabelResetPassword">
+<summary>
+LabelResetPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._LabelNewPassword">
+<summary>
+LabelNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._TextBoxNewPassword">
+<summary>
+TextBoxNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._rfvnewpassword">
+<summary>
+rfvnewpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._LabelConfirmNewPassword">
+<summary>
+LabelConfirmNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._TextBoxConfirmNewPassword">
+<summary>
+TextBoxConfirmNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._rfvconfirmnewpassword">
+<summary>
+rfvconfirmnewpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._cvnewpassword">
+<summary>
+cvnewpassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._ButtonReset">
+<summary>
+ButtonReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ResetPassword._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._LabelSearchOrder">
+<summary>
+LabelSearchOrder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._TextBoxOrderId">
+<summary>
+TextBoxOrderId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._ButtonReset">
+<summary>
+ButtonReset control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._ButtonSearch">
+<summary>
+ButtonSearch control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._GridViewAllOrders">
+<summary>
+GridViewAllOrders control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._GridViewFilterOrders">
+<summary>
+GridViewFilterOrders control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._rfvdate">
+<summary>
+rfvdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._SqlDataSourceAllOrders">
+<summary>
+SqlDataSourceAllOrders control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SearchOrders._SqlDataSourceFilterOrders">
+<summary>
+SqlDataSourceFilterOrders control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._DataListSelectedFeedback">
+<summary>
+DataListSelectedFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._LinkButtonReply">
+<summary>
+LinkButtonReply control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._TableReply">
+<summary>
+TableReply control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._TextBoxAdminMessage">
+<summary>
+TextBoxAdminMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._ButtonSend">
+<summary>
+ButtonSend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._SqlDataSourceFeedback">
+<summary>
+SqlDataSourceFeedback control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.SelectedFeedback._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ShoppingCart._LabelShoppingCartQuantity">
+<summary>
+LabelShoppingCartQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ShoppingCart._HyperLinkContinueShopping">
+<summary>
+HyperLinkContinueShopping control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ShoppingCart._GridViewShoppingCart">
+<summary>
+GridViewShoppingCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ShoppingCart._ButtonCheckout">
+<summary>
+ButtonCheckout control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ShoppingCart._LinkButtonClearShoppingCart">
+<summary>
+LinkButtonClearShoppingCart control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.TransactionHistory._GridViewTransactionHistory">
+<summary>
+GridViewTransactionHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.TransactionHistory._SqlDataSourceTransactionHistory">
+<summary>
+SqlDataSourceTransactionHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelFromAccountId">
+<summary>
+LabelFromAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._TextBoxFromAccountId">
+<summary>
+TextBoxFromAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelToAccountId">
+<summary>
+LabelToAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._TextBoxToAccountId">
+<summary>
+TextBoxToAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._rfvrecipient">
+<summary>
+rfvrecipient control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelDate">
+<summary>
+LabelDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._TextBoxDate">
+<summary>
+TextBoxDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelBalance">
+<summary>
+LabelBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._TextBoxBalance">
+<summary>
+TextBoxBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelTransferAmount">
+<summary>
+LabelTransferAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._TextBoxTransferAmount">
+<summary>
+TextBoxTransferAmount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._rfvtransferamount">
+<summary>
+rfvtransferamount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._ButtonTransfer">
+<summary>
+ButtonTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._HyperLinkDeposit">
+<summary>
+HyperLinkDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._HyperLinkWithdraw">
+<summary>
+HyperLinkWithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._HyperLinkTransfer">
+<summary>
+HyperLinkTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._HyperLinkTransactionHistory">
+<summary>
+HyperLinkTransactionHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelTransactionId">
+<summary>
+LabelTransactionId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Transfer._LabelGetEmailValueFromSession">
+<summary>
+LabelGetEmailValueFromSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelFirstName">
+<summary>
+LabelFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxFirstName">
+<summary>
+TextBoxFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvfirstname">
+<summary>
+rfvfirstname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelLastName">
+<summary>
+LabelLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxLastName">
+<summary>
+TextBoxLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvlastname">
+<summary>
+rfvlastname control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelUsername">
+<summary>
+LabelUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxUsername">
+<summary>
+TextBoxUsername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvusername">
+<summary>
+rfvusername control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelPhoneNumber">
+<summary>
+LabelPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxPhoneNumber">
+<summary>
+TextBoxPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvphonenumber">
+<summary>
+rfvphonenumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelEmail">
+<summary>
+LabelEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxEmail">
+<summary>
+TextBoxEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvemail">
+<summary>
+rfvemail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelAddressLine1">
+<summary>
+LabelAddressLine1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxAddressLine1">
+<summary>
+TextBoxAddressLine1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvaddressline1">
+<summary>
+rfvaddressline1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelAddressLine2">
+<summary>
+LabelAddressLine2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxAddressLine2">
+<summary>
+TextBoxAddressLine2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvaddressline2">
+<summary>
+rfvaddressline2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelPostalCode">
+<summary>
+LabelPostalCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxPostalCode">
+<summary>
+TextBoxPostalCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._RequiredFieldValidator3">
+<summary>
+RequiredFieldValidator3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelCity">
+<summary>
+LabelCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._TextBoxCity">
+<summary>
+TextBoxCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvcity">
+<summary>
+rfvcity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelState">
+<summary>
+LabelState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._DropDownListState">
+<summary>
+DropDownListState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvstate">
+<summary>
+rfvstate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelCountry">
+<summary>
+LabelCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._DropDownListCountry">
+<summary>
+DropDownListCountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._rfvcountry">
+<summary>
+rfvcountry control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._ButtonCancel">
+<summary>
+ButtonCancel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._ButtonUpdate">
+<summary>
+ButtonUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateInformationDetails._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateProduct._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateProduct._DropDownListSelectCategory">
+<summary>
+DropDownListSelectCategory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateProduct._GridViewUpdateProduct">
+<summary>
+GridViewUpdateProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateShoppingCart._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateShoppingCart._LabelNumber">
+<summary>
+LabelNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateShoppingCart._LabelProductName">
+<summary>
+LabelProductName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateShoppingCart._LabelProductPrice">
+<summary>
+LabelProductPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateShoppingCart._DropDownListProductQuantity">
+<summary>
+DropDownListProductQuantity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateShoppingCart._LabelTotalPrice">
+<summary>
+LabelTotalPrice control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.UpdateShoppingCart._ButtonUpdate">
+<summary>
+ButtonUpdate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ViewProductDetails._DataListViewProduct">
+<summary>
+DataListViewProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.ViewProductDetails._SqlDataSourceViewProduct">
+<summary>
+SqlDataSourceViewProduct control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Wishlist._HyperLinkContinueShopping">
+<summary>
+HyperLinkContinueShopping control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Wishlist._GridViewWishlist">
+<summary>
+GridViewWishlist control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Wishlist._LinkButtonClearWishlist">
+<summary>
+LinkButtonClearWishlist control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelTitle">
+<summary>
+LabelTitle control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelAccountId">
+<summary>
+LabelAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._TextBoxAccountId">
+<summary>
+TextBoxAccountId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelBank">
+<summary>
+LabelBank control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._DropDownListBank">
+<summary>
+DropDownListBank control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._rfvbank">
+<summary>
+rfvbank control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelBankAccount">
+<summary>
+LabelBankAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._TextBoxBankAccount">
+<summary>
+TextBoxBankAccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._rfvbankaccount">
+<summary>
+rfvbankaccount control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelDate">
+<summary>
+LabelDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._TextBoxDate">
+<summary>
+TextBoxDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelBalance">
+<summary>
+LabelBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._TextBoxBalance">
+<summary>
+TextBoxBalance control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelWithdraw">
+<summary>
+LabelWithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._TextBoxWithdraw">
+<summary>
+TextBoxWithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._rfvwithdraw">
+<summary>
+rfvwithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._ButtonClear">
+<summary>
+ButtonClear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._ButtonWithdraw">
+<summary>
+ButtonWithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._HyperLinkDeposit">
+<summary>
+HyperLinkDeposit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._HyperLinkWithdraw">
+<summary>
+HyperLinkWithdraw control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._HyperLinkTransfer">
+<summary>
+HyperLinkTransfer control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._HyperLinkTransactionHistory">
+<summary>
+HyperLinkTransactionHistory control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelStatus">
+<summary>
+LabelStatus control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelTransactionId">
+<summary>
+LabelTransactionId control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:MyNewSystem.Withdraw._LabelGetEmailValueFromSession">
+<summary>
+LabelGetEmailValueFromSession control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

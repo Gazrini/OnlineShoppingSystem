@@ -1,0 +1,86 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Guest.master.vb" Inherits="MyNewSystem.Guest" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Guest Masterpage</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--Design.css for customer home page-->
+    <link href="Css/Design.css" rel="stylesheet" type="text/css" />
+    <!--lightslider.css for customer home page-->
+    <link href="Css/lightslider.css" rel="stylesheet" type="text/css" />
+    <!--Jquery.js javascript for customer home page-->
+    <script src="Js/Jquery.js" type="text/javascript"></script>
+    <!--lightslider.js javascript for customer home page-->
+    <script src="Js/lightslider.js" type="text/javascript"></script>
+    <!--Tab-icon-->
+    <link rel="shortcut icon" href="../images/Logo/logo.png">
+    <!--Navigation Bar-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .navbar-default {
+            background-color: gold;
+            border-color: #E7E7E7;
+        }
+
+        body {
+            background-color: #FDF5E6;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand"><b>Online Shop</b></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="Default.aspx">Home</a></li>
+                        <li><a href="Login.aspx">Login</a></li>
+                        <li><a href="Register.aspx">Register</a></li>
+                        <li><a href="Feedback.aspx">Feedback</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <table style="width: 100%;">
+                <tr>
+                    <td rowspan="3">&nbsp;</td>
+                    <td align="center">
+                        <div align="center">
+                            <asp:Label ID="LabelSession" runat="server" ForeColor="#FF9900"></asp:Label>
+                        </div>
+                    </td>
+                    <td rowspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <%--Footer (Start) Check design footer dekat folder css(Design.css)--%>
+    <footer class="fixed-bottom">
+        <div>
+            Develop by Khuzzir Gazrini<br>
+            <a href="mailto:hege@example.com">gazrini1996@gmail.com</a>
+        </div>
+    </footer>
+    <%--Footer (End)--%>
+</body>
+</html>

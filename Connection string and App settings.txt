@@ -1,0 +1,15 @@
+  <connectionStrings>
+    <add name="ConnStringStoreDB" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\MySystemDatabase.mdf;Integrated Security=True" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+
+(Add connection strings dekat web config file)
+
+
+-----------------------------------------------------------
+
+  <appSettings>
+    <add key="ValidationSettings:UnobtrusiveValidationMode" value="None"/>
+    <add key="ChartImageHandler" value="storage=file;timeout=20;dir=c:\TempImageFiles\;"/>
+  </appSettings>
+
+(Add app Settings dekat web config file supaya enable validation untuk error message)

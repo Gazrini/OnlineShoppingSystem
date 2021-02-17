@@ -1,0 +1,133 @@
+CREATE TABLE [dbo].[Admin] (
+    [AdminId]  INT          NOT NULL,
+    [Email]    VARCHAR (50) NOT NULL,
+    [Username] VARCHAR (50) NOT NULL,
+    [Password] VARCHAR (50) NOT NULL,
+    [Role]     VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([AdminId] ASC)
+);
+
+CREATE TABLE [dbo].[Category] (
+    [CategoryId]   INT          NOT NULL,
+    [CategoryName] VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([CategoryId] ASC)
+);
+
+CREATE TABLE [dbo].[Customers] (
+    [CustomerId]   INT          NOT NULL,
+    [FirstName]    VARCHAR (50) NOT NULL,
+    [LastName]     VARCHAR (50) NOT NULL,
+    [Gender]       VARCHAR (50) NOT NULL,
+    [Username]     VARCHAR (50) NOT NULL,
+    [Email]        VARCHAR (50) NOT NULL,
+    [PhoneNo]      VARCHAR (50) NOT NULL,
+    [AddressLine1] VARCHAR (50) NOT NULL,
+    [AddressLine2] VARCHAR (50) NOT NULL,
+    [PostalCode]   VARCHAR (50) NOT NULL,
+    [City]         VARCHAR (50) NOT NULL,
+    [State]        VARCHAR (50) NOT NULL,
+    [Country]      VARCHAR (50) NOT NULL,
+    [Password]     VARCHAR (50) NOT NULL,
+    [Role]         VARCHAR (50) NOT NULL,
+    CONSTRAINT [PK_Customers] PRIMARY KEY CLUSTERED ([CustomerId] ASC)
+);
+
+CREATE TABLE [dbo].[Ewallet] (
+    [AccountId]  INT          NOT NULL,
+    [CustomerId] INT          NOT NULL,
+    [Email]      VARCHAR (50) NOT NULL,
+    [Balance]    INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([AccountId] ASC),
+    CONSTRAINT [FK_CustomerIdInEwallet] FOREIGN KEY ([CustomerId]) REFERENCES [dbo].[Customers] ([CustomerId])
+);
+
+CREATE TABLE [dbo].[EwalletTransactions] (
+    [TransactionId]    INT          NOT NULL,
+    [AccountId]        INT          NOT NULL,
+    [Email]            VARCHAR (50) NOT NULL,
+    [Date]             VARCHAR (50) NOT NULL,
+    [Deposit]          INT          NULL,
+    [Withdraw]         INT          NULL,
+    [Bank]             VARCHAR (50) NULL,
+    [BankAccount]      VARCHAR (50) NULL,
+    [TransferAmount]   INT          NULL,
+    [SenderAccount]    INT          NULL,
+    [RecipientAccount] INT          NULL,
+    [OrderId]          VARCHAR (50) NULL,
+    [PurchaseAmount]   VARCHAR (50) NULL,
+    [Balance]          INT          NULL,
+    PRIMARY KEY CLUSTERED ([TransactionId] ASC),
+    CONSTRAINT [FK_AccountIdInEwalletTransactions] FOREIGN KEY ([AccountId]) REFERENCES [dbo].[Ewallet] ([AccountId])
+);
+
+CREATE TABLE [dbo].[Feedback] (
+    [FeedbackId]   INT           IDENTITY (1, 1) NOT NULL,
+    [CustomerName] VARCHAR (50)  NULL,
+    [Email]        VARCHAR (50)  NULL,
+    [PhoneNumber]  VARCHAR (50)  NULL,
+    [Message]      VARCHAR (MAX) NULL,
+    [Tarikh]       VARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([FeedbackId] ASC)
+);
+
+CREATE TABLE [dbo].[OrderDetails] (
+    [OrderId]      VARCHAR (50) NOT NULL,
+    [CustomerName] VARCHAR (50) NULL,
+    [Email]        VARCHAR (50) NULL,
+    [PhoneNumber]  VARCHAR (50) NULL,
+    [Address]      VARCHAR (50) NULL,
+    [Number]       INT          NULL,
+    [ProductName]  VARCHAR (50) NULL,
+    [ProductPrice] VARCHAR (50) NULL,
+    [Quantity]     INT          NULL,
+    [TotalPrice]   VARCHAR (50) NULL,
+    [DateOfOrder]  VARCHAR (50) NULL,
+    [PaymentType]  VARCHAR (50) NULL
+);
+
+CREATE TABLE [dbo].[Orders] (
+    [OrderId]     VARCHAR (50) NOT NULL,
+    [CustomerId]  INT          NOT NULL,
+    [Email]       VARCHAR (50) NOT NULL,
+    [DateOfOrder] VARCHAR (50) NOT NULL,
+    [TotalPrice]  VARCHAR (50) NOT NULL,
+    CONSTRAINT [FK_CustomerIdInOrders] FOREIGN KEY ([CustomerId]) REFERENCES [dbo].[Customers] ([CustomerId])
+);
+
+CREATE TABLE [dbo].[Products] (
+    [ProductId]          INT           NOT NULL,
+    [CategoryId]         INT           NOT NULL,
+    [ProductName]        VARCHAR (50)  NULL,
+    [ProductDescription] VARCHAR (500) NULL,
+    [ProductPrice]       VARCHAR (50)  NULL,
+    [ProductQuantity]    INT           NULL,
+    [ProductImage]       VARCHAR (50)  NULL,
+    PRIMARY KEY CLUSTERED ([ProductId] ASC),
+    CONSTRAINT [FK_CategoryIdInProducts] FOREIGN KEY ([CategoryId]) REFERENCES [dbo].[Category] ([CategoryId])
+);
+
+CREATE TABLE [dbo].[ResetPasswordRequests] (
+    [Id]                   UNIQUEIDENTIFIER NOT NULL,
+    [CustomerId]           INT              NULL,
+    [ResetRequestDateTime] DATETIME         NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK_CustomerIdInResetPasswordRequests] FOREIGN KEY ([CustomerId]) REFERENCES [dbo].[Customers] ([CustomerId])
+);
+
+CREATE TABLE [dbo].[SaveShoppingCartDetails] (
+    [Number]       VARCHAR (50) NULL,
+    [ProductId]    VARCHAR (50) NULL,
+    [ProductName]  VARCHAR (50) NULL,
+    [ProductImage] VARCHAR (50) NULL,
+    [Quantity]     VARCHAR (50) NULL,
+    [ProductPrice] VARCHAR (50) NULL,
+    [TotalPrice]   VARCHAR (50) NULL,
+    [Email]        VARCHAR (50) NULL
+);
+
+CREATE TABLE [dbo].[Wishlist] (
+    [Email]     VARCHAR (50) NULL,
+    [ProductId] INT          NULL
+);
+
+

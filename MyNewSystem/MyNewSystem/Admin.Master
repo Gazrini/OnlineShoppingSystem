@@ -1,0 +1,77 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Admin.master.vb" Inherits="MyNewSystem.Admin" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Admin Masterpage</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Css/Design.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .navbar-default {
+            background-color: gold;
+            border-color: #E7E7E7;
+        }
+
+        body {
+            background-color: #FDF5E6;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand"><b>Online Shop</b></a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="AdminHomepage.aspx">Home</a></li>
+                        <li><a href="AdminProduct.aspx">Product</a></li>
+                        <li><a href="AddProduct.aspx">Add Product</a></li>
+                        <li><a href="UpdateProduct.aspx">Update Product</a></li>
+                        <li><a href="DeleteProduct.aspx">Delete Product</a></li>
+                        <li><a href="AdminFeedback.aspx">Feedback</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <table style="width: 100%;">
+                <tr>
+                    <td rowspan="3">&nbsp;</td>
+                    <td align="center">
+                        <asp:LinkButton ID="LinkButtonLogout" runat="server" CausesValidation="False">Logout</asp:LinkButton>
+                        <div align="center">
+                            <asp:Label ID="LabelSession" runat="server" ForeColor="#FF9900"></asp:Label>
+                        </div>
+                    </td>
+                    <td rowspan="3">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="container">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <%--Footer (Start) Check design footer dekat folder css(Design.css)--%>
+    <footer class="fixed-bottom">
+        <div>
+            Develop by Khuzzir Gazrini<br>
+            <a href="mailto:hege@example.com">gazrini1996@gmail.com</a>
+        </div>
+    </footer>
+    <%--Footer (End)--%>
+</body>
+</html>
